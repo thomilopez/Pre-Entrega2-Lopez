@@ -1,0 +1,12 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap%27');
+
+.botonesheader{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Poppins', sans-serif;
+}
+
+.bkc{
+    background-color: rgba(59, 147, 247, 0.925);
+}
