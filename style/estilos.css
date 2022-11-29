@@ -1,15 +1,26 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap%27');
 
+.navbar{
+    padding: 0px;
+
+
+
+}
+
+
+.navbar .container-fluid{
+    background-color: rgba(59, 147, 247, 0.925) ;
+
+}
+
+
 .botonesheader{
     display: flex;
     justify-content: space-between;
     font-family: 'Poppins', sans-serif;
 }
 
-.bkc{
-    background-color: rgba(59, 147, 247, 0.925);
-}
 
 .carousel-inner div img{
     height: 90vh;
@@ -30,13 +41,17 @@
     justify-content: center;
 }
 
-.footerindex{
+.mg-bottom{
+    margin-bottom: 20px;
+}
+
+
+.bg-pieDePagina{
     background-color:  rgba(59, 147, 247, 0.925);
-    display: flex;
+    padding-top: 20px;
 }
 
 .copy{
-    width: 33%;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -49,9 +64,17 @@
 
 .tarjetas{
     display: flex;
+    flex-direction: column;
     justify-content: space-around;
-    align-items: flex-end;
+    align-items: center;
+    height: 100%;
+    width: 100%;
 }
+.tarjetaAbajo{
+    display: flex;
+    align-items: center;
+}
+
 .tarjetas img{
     height: 27px;
     width: auto;
