@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap%27");
+header {
+  background-color: rgba(59, 147, 247, 0.925);
+}
+header .navbar {
+  padding: 0px;
+}
+header .navbar .container-fluid {
+  background-color: rgba(59, 147, 247, 0.925);
+}
+header .navbar .container-fluid .botonesheader {
+  display: flex;
+  justify-content: space-between;
+  font-family: "Poppins", sans-serif;
+}
+
+.bg-pieDePagina {
+  background-color: rgba(59, 147, 247, 0.925);
+  padding-top: 20px;
+}
+
+.copy {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.copy .a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.tarjetas {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+.tarjetaAbajo {
+  display: flex;
+  align-items: center;
+}
+
+.tarjetas img {
+  height: 27px;
+  width: auto;
+}
+
+.carousel-inner div img {
+  height: 90vh;
+  width: auto;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mg-bottom {
+  margin-bottom: 20px;
+}
+
+.acercar {
+  overflow: hidden;
+}
+
+.acercar img {
+  transition: all 1.5s;
+}
+
+.acercar:hover img {
+  transform: scale(1.5);
+}
+
+.contactomain {
+  height: calc(100vh - 322px);
+}
+
+.redescontacto {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 50px 0px 0px 0px;
+}
+
+.divstart {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  color: black;
+  font-weight: bold;
+}
+
+.wpc {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.fbc {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.instagramc {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.email {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.textocontacto {
+  display: flex;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}/*# sourceMappingURL=style.css.map */

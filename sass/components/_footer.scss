@@ -1,0 +1,35 @@
+.bg-pieDePagina{
+    background-color: $color;
+    padding-top: 20px;
+}
+
+.copy{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    .a {
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+    }
+}
+
+
+.tarjetas{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+.tarjetaAbajo{
+    display: flex;
+    align-items: center;
+}
+
+.tarjetas img{
+    height: 27px;
+    width: auto;
+}
+

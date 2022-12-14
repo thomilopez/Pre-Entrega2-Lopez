@@ -1,0 +1,20 @@
+header {
+    background-color: $color;
+    .navbar {
+        padding: 0px;
+        .container-fluid {
+            background-color: $color;
+            .botonesheader {
+                display: flex;
+                justify-content: space-between;
+                font-family: 'Poppins', sans-serif;
+            }
+        }
+    }
+}
+
+
+
+
+
+

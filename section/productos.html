@@ -5,155 +5,205 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../style/estilos.css">
+    <meta name="description" content="Venta por menor y mayor de juegos didacticos para chicos - Envio a todo el pais">
+    <meta name="keywords" content="Productos, ofertas, juegos, niños, bebes, nenes, nenas, redes, envios a todo el pais,">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="../style/style.css">
     <title>Document</title>
 </head>
 
-<body class="bodyproductos">
-    <div class="envoltura">
-        <header>
-            <a href="../index.html"><img src="../img/logo.png" alt="logo chickids"></a>
-        </header>
-        <nav>
-            <ul>
-                <li>
-                    <a href="../index.html">Inicio</a>
-                </li>
-                <li>
-                    <a href="productos.html">Productos</a>
-                </li>
-                <li>
-                    <a href="nosotros.html">Nosotros</a>
-                </li>
-                <li>
-                    <a href="contacto.html">Contacto</a>
-                </li>
-                <li>
-                    <a href="micuenta.html">Mi cuenta</a>
-                </li>
-            </ul>
-        </nav>
-    </div>
+<body>
+    <header class="headerindex">
+        <nav class="navbar navbar-expand-lg navbar-light bkc">
+            <div class="container-fluid bg-encabezado">
+                <a class="navbar-brand" href="../index.html"><img src="../img/logo.png" alt="logo chickids">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="botonesheader">
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link active text-white" aria-current="page" href="../index.html">Inicio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active text-white" href="productos.html">Productos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active text-white" href="nosotros.html">Nosotros</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active text-white" href="micuenta.html" tabindex="-1"
+                                    aria-disabled="true">Mi cuenta</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active text-white" aria-current="page"
+                                    href="contacto.html">Contacto</a>
+                            </li>
 
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
     <main class="productosmain">
         <section class="hero6">
-            <h1>
+            <h1 class="display-3 text-center mt-3">
                 Productos
             </h1>
         </section>
-
-        <section class="productos-pro">
-            <div class="fila1">
-                <div>
-                    <img src="../img/delantal1.jpeg" alt="delantal">
-                    <p>Delantal #1 $500</p>
-                </div>
-                <div>
-                    <img src="../img/delantal2.jpeg" alt="delantal">
-                    <p>Delantal #2 $500</p>
-                </div>
-                <div>
-                    <img src="../img/delantal3.jpeg" alt="delantal">
-                    <p>Delantal #3 $500</p>
-                </div>
-            </div>
-            <div class="fila2">
-                <div>
-                    <div>
-                        <img src="../img/tablerosensorial1.1.jpg" alt="tablero senrorial de adelante">
-                        <img src="../img/tablerosensorial1.22.jpg" alt="tablero senrorial de atras">
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+                <div class="card">
+                    <div class="acercar d-block mx-auto">
+                        <img src="../img/delantal1.jpeg" class="card-img-top" alt="delantal1">
                     </div>
-                    <div>
-                        <p>Tablero sensorial grande con pizarron $13500</p>
+                    
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Delantal #1</h5>
+                        <p class="card-text">Delantal tipo-1 $500</p>
                     </div>
                 </div>
-                <div>
-                    <img src="../img/producto4.jpg" alt="tablero sensorial mediano">
-                    <p>Tablero sensorial mediano $5200</p>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="acercar d-block mx-auto">
+                        <img src="../img/delantal2.jpeg" class="card-img-top" alt="delantal2">
+                    </div>
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Delantal #2</h5>
+                        <p class="card-text">Delantal tipo-2 $500</p>
+                    </div>
                 </div>
             </div>
-            <div class="fila3">
-                <div>
-                    <img src="../img/producto1.jpg" alt="Gimnasio para bebes">
-                    <p>Gimnasio + play mant + 5 muñecos colgantes $5999</p>
-                </div>
-                <div>
-                    <img src="../img/producto2.jpg" alt="rompecabezas didacticos">
-                    <p>Rompecabezas didacticos $2500</p>
-                </div>
-                <div>
-                    <img src="../img/producto3.jpg" alt="Tablero senrorial chico">
-                    <p>Tablero senrorial chico $3000</p>
+            <div class="col">
+                <div class="card">
+                    <div class="acercar d-block mx-auto">
+                        <img src="../img/delantal3.jpeg" class="card-img-top" alt="delantal3">
+                    </div>
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Delantal #3</h5>
+                        <p class="card-text">Delantal tipo-3 $500</p>
+                    </div>
                 </div>
             </div>
-        </section>
-
+            <div class="col">
+                <div class="card">
+                    <div class="acercar d-block mx-auto">
+                        <img src="../img/tablerosensorial1.1.jpg" class="card-img-top" alt="tablero sensorial">
+                    </div>
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Tablero sensorial</h5>
+                        <p class="card-text">Tablero sensorial grande con pizarron de atras $13500</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="acercar d-block mx-auto">
+                        <img src="../img/producto4.jpg" class="card-img-top" alt="tablero sensorial2">
+                    </div>
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Tablero sensorial</h5>
+                        <p class="card-text">Tablero sensorial mediano $5200</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="acercar d-block mx-auto">
+                        <img src="../img/producto1.jpg" class="card-img-top" alt="gimnasio">
+                    </div>
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Gimnasio para bebes</h5>
+                        <p class="card-text">Gimnasio + play mant + 5 muñecos colgantes $5999</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="acercar d-block mx-auto">
+                        <img src="../img/producto2.jpg" class="card-img-top" alt="rompecabezas didacticos">
+                    </div>
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Rompecabezas didacticos $2500</h5>
+                        <p class="card-text"></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="acercar d-block mx-auto">
+                        <img src="../img/producto3.jpg" class="card-img-top" alt="Tablero sensorial">
+                    </div>
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Tablero sensorial</h5>
+                        <p class="card-text">Tablero senrorial chico $3000</p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </main>
-
-    <footer class="footerproductos">
-
-        <div class="lifooter">
-            <ul>
-                <li>
-                    <a href="../index.html">Inicio</a>
-                </li>
-                <li>
-                    <a href="./productos.html">Productos</a>
-                </li>
-                <li>
-                    <a href="./nosotros.html">Nosotros</a>
-                </li>
-                <li>
-                    <a href="./contacto.html">Contacto</a>
-                </li>
-                <li>
-                    <a href="./micuenta.html">Mi cuenta</a>
-                </li>
-            </ul>
-        </div>
-        <div class="copy">
-            <a href="../index.html"><img src="../img/logofooter.png" alt="logo chickids"></a>
-            <p>
-                Copyright ChicKids - 2022
-            </p>
-            <p>
-                Defensa de las y los consumidores. Para reclamos
-                <a href="https://autogestion.produccion.gob.ar/consumidores" target="_blank">ingrese aquí</a>
-            </p>
-        </div>
-        <div class="logofooter">
-            <div class="redes">
-                <a href="https://wa.me/5491161885398?text=Chickids%20Juegos" target="_blank"><img
-                        src="../img/whatsapp.svg" alt="logo face"></a>
-                <a href="https://www.facebook.com/ChicKids.juegos" target="_blank"><img src="../img/Face.svg"
-                        alt="logo face"></a>
-                <a href="https://www.instagram.com/chickids.juegos/" target="_blank"><img src="../img/instagram.svg"
-                        alt="logo insta"></a>
-            </div>
-            <div class="tarjetas">
-                <div>
-                    <img src="../img/amex.png" alt="logo amex">
-                    <img src="../img/argencard.png" alt="logo argencard">
-                    <img src="../img/banelco.png" alt="logo banelco">
-                    <img src="../img/cabal@2x.png" alt="logo cabal">
+    <footer class="footerindex">
+        <div class="container-fluid bg-pieDePagina">
+            <div class="row text-center text-white">
+                <div class="col-xs-12 col-md-6 col-lg-4">
+                    <div class="redes">
+                        <a href="https://wa.me/5491161885398?text=Chickids%20Juegos" target="_blank"><img
+                                src="../img/whatsapp.svg" alt="logo face"></a>
+                        <a href="https://www.facebook.com/ChicKids.juegos" target="_blank"><img src="../img/Face.svg"
+                                alt="logo face"></a>
+                        <a href="https://www.instagram.com/chickids.juegos/" target="_blank"><img
+                                src="../img/instagram.svg" alt="logo insta"></a>
+                    </div>
                 </div>
-                <div>
-                    <img src="../img/diners.png" alt="logo diners">
-                    <img src="../img/mastercard.png" alt="logo mastercard">
-                    <img src="../img/mercadopago.png" alt="logo mercadopago">
-                    <img src="../img/pagofacil.png" alt="logo pagofacil">
+                <div class="col-xs-12 col-md-6 col-lg-4">
+                    <div class="copy">
+                        <a href="../index.html"><img src="../img/logofooter.png" alt="logo chickids"></a>
+                        <p>
+                            Copyright ChicKids - 2022
+                        </p>
+                        <p>
+                            Defensa de las y los consumidores. Para reclamos
+                            <a href="https://autogestion.produccion.gob.ar/consumidores" target="_blank">ingrese
+                                aquí</a>
+                        </p>
+                    </div>
                 </div>
-                <div>
-                    <img src="../img/rapipago.png" alt="logo rapipago">
-                    <img src="../img/tarjeta-naranja@2x.png" alt="logo tarjeta naranja">
-                    <img src="../img/tarjetashopping.png" alt="logo tarjeta shopping">
-                    <img src="../img/visa.png" alt="logo visa">
+                <div class="col-xs-12 col-md-6 col-lg-4">
+                    <div class="tarjetas">
+                        <div class="tarjetaAbajo">
+                            <img src="../img/amex.png" alt="logo amex">
+                            <img src="../img/argencard.png" alt="logo argencard">
+                            <img src="../img/banelco.png" alt="logo banelco">
+                            <img src="../img/cabal@2x.png" alt="logo cabal">
+                        </div>
+                        <div class="tarjetaAbajo">
+                            <img src="../img/diners.png" alt="logo diners">
+                            <img src="../img/mastercard.png" alt="logo mastercard">
+                            <img src="../img/mercadopago.png" alt="logo mercadopago">
+                            <img src="../img/pagofacil.png" alt="logo pagofacil">
+                        </div>
+                        <div class="tarjetaAbajo">
+                            <img src="../img/rapipago.png" alt="logo rapipago">
+                            <img src="../img/tarjeta-naranja@2x.png" alt="logo tarjeta naranja">
+                            <img src="../img/tarjetashopping.png" alt="logo tarjeta shopping">
+                            <img src="../img/visa.png" alt="logo visa">
+                        </div>
+                    </div>
                 </div>
             </div>
+
         </div>
-
-
     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
 </body>
 
 </html>
