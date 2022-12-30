@@ -29,7 +29,6 @@
 }
 
 .tarjetas img{
-    height: 27px;
-    width: auto;
+    @include sizes (27px, auto);
 }
 
